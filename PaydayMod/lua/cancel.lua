@@ -1,0 +1,1 @@
+Hooks:UnregisterHook("draw_bad_apple")
