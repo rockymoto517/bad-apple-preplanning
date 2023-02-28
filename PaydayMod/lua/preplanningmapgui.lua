@@ -7,6 +7,7 @@ function PrePlanningMapGui:custom_draw_point(x, y)
     px = math.clamp(px, 0, 1)
     py = math.clamp(py, 0, 1)
     local peer_id = managers.network:session():local_peer():id()
+    -- Don't sync with other peers, only sync with self so there's less overhead
     self:sync_draw_point(peer_id, px, py)
 end
 Hooks:PostHook(PrePlanningMapGui, "update", "draw_update",

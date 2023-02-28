@@ -1,3 +1,5 @@
+-- Menu stuff for a different version of the mod
+-- None of this is actually required to play bad apple
 if PreplanImages then
     return
 end
