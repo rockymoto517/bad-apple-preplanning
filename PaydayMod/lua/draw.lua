@@ -73,7 +73,7 @@ local function do_drawing(t, dt)
             -- When we exhaust all data files, stop drawing
             Hooks:UnregisterHook("draw_bad_apple")
         end
-        BadAppleTime = 0
+        BadAppleTime = BadAppleTime - 0.333333
     else
         BadAppleTime = BadAppleTime + dt
     end
