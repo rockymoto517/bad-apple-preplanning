@@ -1,24 +1,23 @@
 {
-    "name" : "Preplanning drawings",
+    "name" : "Bad Apple Preplanning",
     "author" : "rocky",
     "hooks" : [
-        { "hook_id" : "lib/managers/menu/preplanningmapgui",    "script_path" : "lua/preplanningmapgui.lua" },
-        { "hook_id" : "lib/managers/menumanager",               "script_path" : "lua/menumanager.lua" }
+        { "hook_id" : "lib/managers/menu/preplanningmapgui",    "script_path" : "lua/preplanningmapgui.lua" }
     ],
     "keybinds" : [
         {
             "keybind_id" : "custom_preplanning_image",
             "name" : "Draw in preplanning",
-            "description" : "Press this key to draw a picture.",
+            "description" : "Press this key to start bad apple.",
             "script_path" : "lua/draw.lua",
             "run_in_menu" : true,
             "run_in_game" : true,
             "localized" : false
         },
                 {
-            "keybind_id" : "custom_preplanning_image_cancel",
-            "name" : "Cancel drawing",
-            "description" : "Press this key to draw a picture.",
+            "keybind_id" : "custom_preplanning_image_pause",
+            "name" : "Pause drawing",
+            "description" : "Press this key to pause bad apple.",
             "script_path" : "lua/cancel.lua",
             "run_in_menu" : true,
             "run_in_game" : true,

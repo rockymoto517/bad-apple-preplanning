@@ -1,6 +1,0 @@
-{
-    "preplan_images_menu_title" : "Preplan Images",
-    "preplan_images_menu_desc" : "Set an image.",
-    "preplanimages_set_image_title" : "Image",
-    "preplanimages_set_image_desc" : "Select the image data."
-}
